@@ -24,7 +24,7 @@
 #
 
 makeCacheMatrix <- function(x = matrix()) {
-    m <- NULL  # not sure this is actually necessary.
+    m <- NULL  # Creates the variable "m" in the functions local environment
     set <- function(y) {
         # sets the matrix (x) and nulls out it's inverse
         x <<- y
